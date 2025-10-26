@@ -114,7 +114,7 @@ public class Power
     {
         Assert.AreEqual(2, Program.Power("2", "1"));
         Assert.AreEqual(36, Program.Power("6", "2"));
-        Assert.AreEqual(102300, Program.Power("10", "3"));
+        Assert.AreEqual(1000, Program.Power("10", "3"));
     }
     [TestMethod]
     public void Pow_Invalid_Le()
